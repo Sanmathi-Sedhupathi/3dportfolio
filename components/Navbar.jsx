@@ -59,7 +59,7 @@ function Navbar() {
                         rounded-full relative cursor-pointer"
 						>
 							<Image
-								src="/assets/avatar.png"
+								src="/assets/avatar.avif"
 								alt="avatar"
 								fill={true}
 								sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 20vw"
@@ -70,10 +70,10 @@ function Navbar() {
 						</div>
 						<Link href="/">
 							<p className="dark:text-ctnPrimaryDark text-ctnPrimaryLight text-[18px] font-bold cursor-pointer flex ">
-								Shivam Sharma &nbsp;
+								Sanmathi Sethupathi&nbsp;
 								<span className="lg:block hidden">
 									{" "}
-									| Frontend Developer
+									| Software Developer
 								</span>
 							</p>
 						</Link>

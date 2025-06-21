@@ -7,22 +7,27 @@ import { technologies } from "../constants";
 import { fadeIn, textVariant } from "@/utils/motion";
 
 const tech = [
-  technologies.languages,
-  technologies.frameworks,
-  technologies.libraries,
-  technologies.databases,
-  technologies.tools,
-  technologies.environments,
+  technologies.programmingLanguages,
+  technologies.webDevelopment,
+  technologies.mobileAppDevelopment,
+  technologies.databaseTechnologies,
+  technologies.devOpsAndTools,
+  technologies.versionControl,
+  technologies.cmsAndDesign,
+  technologies.apiTesting,
 ];
 
 const techVariants = [
-  "Languages",
-  "Frameworks",
-  "Libraries",
-  "Databases",
-  "Tools",
-  "Environments",
+  "Programming Languages",
+  "Web Development",
+  "Mobile App Development",
+  "Database Technologies",
+  "DevOps & Monitoring",
+  "Version Control",
+  "CMS & Design",
+  "API Testing",
 ];
+
 
 function Tech() {
   const languages = tech.map((technology, index) => (
@@ -95,7 +100,7 @@ function Tech() {
         >
           {techNames}
         </motion.div>
-        <div className="w-[2px] h-[400px] dark:bg-ctnSecondaryDark bg-ctnSecondaryLight rounded-lg md:flex hidden mx-8" />
+        <div className="w-[2px] h-[560px] dark:bg-ctnSecondaryDark bg-ctnSecondaryLight rounded-lg md:flex hidden mx-8" />
         <div className="md:w-[80%] w-full pl-2 h-full flex flex-col gap-8">
           {languages}
         </div>

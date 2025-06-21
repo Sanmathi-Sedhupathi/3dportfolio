@@ -28,27 +28,24 @@ function About() {
         className="mt-4 dark:text-ctnSecondaryDark text-gray-300 text-[17px] w-full leading-[30px] flex flex-col justify-between gap-6"
       >
         <div>
-          Hello! I&apos;m Shivam Sharma, a passionate web developer and problem
-          solver. Currently, I&apos;m the Tech Team Lead at GDSC MVJCE, and
-          I&apos;m pursuing a B.E. degree in Computer Science and Engineering at
-          MVJ College Of Engineering in Bengaluru, India, with an expected
-          graduation year of 2025. I&apos;m a software developer with experience
-          in TypeScript, TailwindCSS, and JavaScript. I specialize in frameworks
-          such as React, Node.js, Next.js, React-Three-Fiber, and Three.js. My
-          knowledge extends to fundamental data structures and algorithms,
-          making me well-versed in frontend web development.
+       Hi, I'm Sanmathi S — a multi-skilled full-stack developer with a strong foundation in both web and mobile app development.
+I specialize in building end-to-end digital solutions that are fast, responsive, and production-ready. <br /><br />
+I am a proactive and curious individual with a strong passion for technology and continuous learning. I enjoy exploring new tools, frameworks, and methodologies to build efficient and user-friendly solutions. My strengths lie in problem-solving, adaptability, and clear communication, which help me collaborate effectively in team environments. I take initiative, value constructive feedback, and consistently strive to improve both my technical and interpersonal skills. Whether it’s working on a solo project or contributing to a larger team effort, I bring commitment, creativity, and a growth mindset to everything I do.
+
+
+
           <br className="sm:block hidden" />
           Let&apos;s collaborate to bring your ideas to life!
         </div>
         <div className="w-fit break-words">
           <Link
-            href="mailto:shivamsharma77607@gmail.com"
+            href="mailto:sanmathisedhupathi2004@gmail.com"
             target="_blank"
             rel="noreferrer"
             className="hover:text-primary w-full transition-all duration-100 ease-in flex md:items-center gap-2 md:flex-row flex-wrap word-break hover:-translate-y-2"
           >
             <EmailIcon className="w-[30px] h-[30px]" />
-            shivamsharma77607@gmail.com
+            sanmathisedhupathi2004@gmail.com
           </Link>
         </div>
         <div className="flex gap-5 items-center">
@@ -64,7 +61,7 @@ function About() {
           ))}
         </div>
         <Link
-          href="document/Shivam_Sharma_Resume.pdf"
+          href="document/Sanmathi_Sedhupathi Resume.pdf"
           target="_blank"
           rel="noreferrer"
           className="w-fit"

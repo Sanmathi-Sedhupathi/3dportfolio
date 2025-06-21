@@ -23,12 +23,11 @@ export default function App({ Component, pageProps }) {
 		}
 	}, [loading]);
 
-	const title = "Portfolio | Shivam Sharma";
+	const title = "Portfolio | Sanmathi";
 	const description =
-		"Hello! I'm Shivam Sharma, a passionate web developer and problem solver. Welcome to my portfolio";
-	const avatar =
-		"https://res.cloudinary.com/dyle3hnpw/image/upload/v1696091629/portfolio/WhatsApp_Image_2023-09-30_at_10.02.55_PM_jk44v9.jpg";
-	const url = "https://shivam-sharma-myportfolio.vercel.app/";
+		"Hello! I'm Sanmathi Sedhupathi, a passionate Software developer and problem solver. Welcome to my portfolio";
+	const avatar = "https://img.freepik.com/free-vector/cute-girl-hacker-operating-laptop-cartoon-vector-icon-illustration-people-technology-isolated-flat_138676-9487.jpg?semt=ais_hybrid&w=740";
+	const url = "https://sanmathi-sedhupathi-myportfolio.vercel.app/";
 
 	return (
 		<>
