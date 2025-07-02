@@ -32,23 +32,38 @@ const navLinks = [
     title: "Contact",
   },
 ];
-
+const certifications = [
+	{
+		title: "Oracle AI Vector Search Professional",
+		issuer: "Oracle",
+		year: "2025",
+	},
+	{
+		title: "Oracle APEX Cloud Developer Professional",
+		issuer: "Oracle",
+		year: "2025",
+	},
+];
 const services = [
   {
-    title: "Software Developer",
+    title: "Web App Devlopment",
     icon: <FullStackIcon />,
   },
   {
-    title: "Fullstack Developer",
+    title: "Mobile App Development",
     icon: <FrontendIcon />,
   },
   {
-    title: "DevOps",
+    title: "UI/UX Design",
     icon: <BackendIcon />,
   },
   {
-    title: "Problem Solving",
+    title: "Devops",
     icon: <ProblemSolvingIcon />,
+  },
+   {
+    title: " API & Integrations",
+    icon: <FreelancerIcon />,
   },
 
 ];
@@ -385,7 +400,7 @@ const socials = [
   {
     id: "linkedin",
     icon: <LinkedInIcon />,
-    link: "www.linkedin.com/in/sanmathi-sedhupathi08",
+    link: "https://linkedin.com/in/sanmathi-sedhupathi08",
   },
   {
     id: "x",
@@ -423,4 +438,5 @@ export {
   projects,
   socials,
   heroTexts,
+  certifications,
 };
