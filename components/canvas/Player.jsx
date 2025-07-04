@@ -17,9 +17,9 @@ function Player({ isMobile }) {
   const group = useRef();
   const [animationsLoaded, setAnimationsLoaded] = useState(false);
 
-  const { nodes, materials, scene } = useGLTF("models/player/player.gltf");
+  const { nodes, materials, scene } = useGLTF("models/player/greeting.glb");
   const { animations: waveAnimation } = useFBX(
-    "animations/standing-greeting.fbx"
+    "animations/Standing-Greeting-final.fbx"
   );
   scene.frustumCulled = false;
 
