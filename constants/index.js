@@ -295,7 +295,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "NueroCare - AI Driven Chatbot for Mental Wellness",
+    name: "NeuroCare - AI Driven Chatbot for Mental Wellness",
     description:
       "NeuroCare is a React Native app for mental wellness with AI chat, mood detection, emotion analysis, local help, and self-care tools — all privacy-focused.",
     tags: [
@@ -386,7 +386,7 @@ const projects = [
     source_code_link:
       "https://github.com/SanmathiSedhupathi/AI_IMAGE_GENERATOR_MERN.git",
     deployed_link:
-      "https://github.com/SanmathiSedhupathi/AI_IMAGE_GENERATOR_MERN.git",
+      "ai-image-generator-mern-client-chi.vercel.app",
   },
 
 ];
