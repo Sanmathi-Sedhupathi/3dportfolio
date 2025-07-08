@@ -353,7 +353,7 @@ const projects = [
     ],
     image: "/assets/projects/recipenest.png",
     source_code_link: "https://github.com/SanmathiSedhupathi/FoodNest.git",
-    deployed_link: "https://github.com/SanmathiSedhupathi/FoodNest.git",
+    deployed_link: "https://food-nest-one.vercel.app",
   },
   
   {
