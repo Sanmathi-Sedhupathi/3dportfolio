@@ -357,7 +357,7 @@ const projects = [
   },
   
   {
-    name: "AI Image Generator",
+    name: "DreamPixel - AI Image Generator",
     description:
       "A full-stack AI image generator web application built using the MERN stack and powered by Hugging Face's Stable Diffusion API to convert text prompts into images. Users can generate images, view them in a community feed, and share their creations.",
     tags: [
@@ -386,7 +386,7 @@ const projects = [
     source_code_link:
       "https://github.com/SanmathiSedhupathi/AI_IMAGE_GENERATOR_MERN.git",
     deployed_link:
-      "ai-image-generator-mern-client-chi.vercel.app",
+      "https://ai-image-generator-mern-client-chi.vercel.app",
   },
 
 ];
